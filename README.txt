@@ -11,10 +11,10 @@ Some is sourced from SDE built by EVEShipFit. This generates the SDE from client
 https://github.com/EVEShipFit/sde/releases
 
 Data specifically needed right now is:
-market_groups.json (Reference-Data)
-regions.json (Reference-Data)
-staStations.yaml (CCP SDE/bsd)
-structures-latest.v2.json (Everef download)
+market_groups.json (Reference-Data)  
+regions.json (Reference-Data)  
+staStations.yaml (CCP SDE/bsd)  
+structures-latest.v2.json (Everef download)  
 types.json (Reference-Data)
 
 You can build the everef API by using:
