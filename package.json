@@ -1,0 +1,25 @@
+{
+  "name": "swagger-client-generator",
+  "version": "1.0.0",
+  "description": "A script to generate TypeScript client from Swagger definition",
+  "main": "index.js",
+  "scripts": {
+    "client": "ts-node client-generators/generate-client.ts",
+    "everef": "ts-node client-generators/generate-everef-client.ts",
+    "json:types": "ts-node json-helpers/process-types.ts",
+    "json:stations": "ts-node json-helpers/process-stations-structures.ts",
+    "json:market-groups": "ts-node json-helpers/generate-market-group-json.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "postgres": "^3.4.4",
+    "swagger-typescript-api": "^12.0.0",
+    "typescript": "^5.0.0",
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "openapi-typescript-codegen": "^0.29.0",
+    "ts-node": "^10.0.0"
+  }
+}
